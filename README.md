@@ -81,7 +81,7 @@ Para ello, tu siguiente desafío será publicar en Twitter las imagenes transfor
 
 Hasta ahora hemos realizado secuencias seriales de transformaciones. ¿Qué tal si queremos en algunos casos aplicar una transformación y en otros casos otra? Deberiamos para esto determinar en que casos realizar una acción y en qué casos otra.
 
-¿Qué tal si nuestro IFiltro tuviese un resultado de su ejecución? Un valor lógico en una propiedad por ejemplo. Podriamos llamar a este tipo de filtro un "filtro condicional". Si tuviesemos esto podriamos, ahora sí, crear un tipo de Pipe que envia por una secuencia en caso verdadero y por otra en caso falso. Sería algo así como un "Pipe condicional con bifurcacion" ... ¡seguramente puedas pensar un mejor nombre para esto! 😉
+¿Qué tal si nuestro IFiltro tuviese un resultado de su ejecución? Un valor lógico en una propiedad por ejemplo. Podriamos llamar a este tipo de filtro un "filtro condicional". Si tuviesemos esto podriamos, ahora sí, crear un tipo de Pipe que envia por una secuencia en caso verdadero y por otra en caso falso. Sería algo así como un "Pipe condicional con bifurcacion" ... ¡seguramente puedas pensar un mejor nombre para esto!😉
 
 Tu siguiente desafío será entonces crear un filtro nuevo, el cual tenga un resultado de ejecución utlilizando la CognitiveApi. Si la imagen filtrada contiene una cara, el resultado será ```true```, de lo contrario ```false```. Luego implementa un "pipe condicional con bifurcacion", el cual aplica un filtro a la imagen si esta contiene una cara y otro filtro diferente si no contiene una cara.
 
